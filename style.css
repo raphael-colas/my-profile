@@ -1,0 +1,121 @@
+/* Colors and Fonts */
+
+body {
+color: rgb(50,50,50);
+background : #f2eee5;
+font-family: 'Noto Sans JP', sans-serif;
+font-size: 17px ;
+letter-spacing: .5px;
+}
+
+h1,h2 {
+	font-family: 'Quattrocento', serif;
+
+}
+
+h1 {
+color : #293a80;
+font-size: 33px;
+font-weight: 900;
+
+}
+
+h2 {
+color : #00909E;
+font-size: 20px;
+font-weight: 600;
+}
+
+a{
+	text-decoration: none;
+	color : #293a80;
+}
+
+a:hover{
+	color : black;
+}
+
+
+/*Custom design with class*/
+
+.container {
+	width: 750px;
+	margin: 40px auto;
+}
+
+@media (max-width: 800px) {
+	.container {
+		width:600px
+	} 
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width:400px
+	} 
+}
+
+
+.box-white {
+background: white;
+padding: 40px;
+border-radius: 5px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+margin: 30px 0px;
+text-align: center;
+}
+
+.img-circle {
+border-radius: 50%
+}
+
+.btn-blue {
+	background-color : #293a80;
+	color : white;
+	padding : 10px 15px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover {
+	background-color : black ;
+	color : white;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display : inline;
+	padding : 15px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+	color: rgb(230,230,230)
+}
+
+.list-horizontal i:hover {
+	color : blue;
+}
+
+#introduction p {
+	margin-bottom : 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
